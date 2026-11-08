@@ -1,0 +1,18 @@
+{
+  "name": "sentinelpay-contracts",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:localhost": "hardhat run scripts/deploy-local.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.24.0",
+    "typescript": "^5.7.0",
+    "ts-node": "^10.9.2"
+  }
+}

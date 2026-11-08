@@ -1,0 +1,9 @@
+.git
+.env
+**/.env.local
+**/.venv
+**/node_modules
+**/.next
+**/__pycache__
+**/.pytest_cache
+**/coverage
